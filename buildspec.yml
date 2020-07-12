@@ -16,6 +16,8 @@ phases:
 
   pre_build:
     commands:
+      - ls -lrt 
+      - pwd
       - npm install protractor@5.4.2 --save-dev
       - npm i -D webdriver-manager
       - rm -rf node_modules
